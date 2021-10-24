@@ -9,30 +9,28 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAqua"
-        />
+        android:text="frame1"
+        android:textColor="@color/white"
+        android:background="@color/black" />
+
     <TextView
-    android:layout_gravity="center"
-    android:layout_width="200dp"
-    android:layout_height="200dp"
-    android:background="@color/colorRed"
-        />
-    <TextView
-        android:layout_gravity="center"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@color/colorBlue"
-        />
-    <TextView
-        android:layout_gravity="center"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorGreen"
-        />
-    <TextView
-        android:layout_gravity="center"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="370dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
         android:background="@color/colorYellow"
-        />
+        android:text="frame2" />
+
+    <TextView
+        android:layout_marginTop="39dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="frame3"
+        android:background="@color/white" />
+    <TextView
+        android:layout_marginTop="59dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="frame4"
+        android:textColor="@color/white"
+        android:background="@color/colorGreen" />
 </FrameLayout>
